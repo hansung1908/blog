@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 server:
     port: 8000
     servlet:
@@ -13,12 +14,16 @@ spring:
             prefix: /WEB-INF/views/
             suffix: .jsp
 
+=======
+spring:
+>>>>>>> 80efaee148dcefc1fd9eede0d9efa9b17f697113
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
         url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Seoul
         username: root
         password: 1234
 
+<<<<<<< HEAD
     jpa:
         open-in-view: true
         hibernate:
@@ -36,3 +41,6 @@ spring:
 
 cos:
     key: cos1234
+=======
+
+>>>>>>> 80efaee148dcefc1fd9eede0d9efa9b17f697113
